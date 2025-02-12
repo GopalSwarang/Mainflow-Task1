@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product-Wheat</title>
+    <link rel="stylesheet" href="organic.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 100%;
+            height: calc(100% - 70px);
+            display: flex;
+        }
+
+        .leftt {
+            width: 35%;
+            background: url('wheat.jpg') ;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+
+        .right {
+            width: 65%;
+            padding: 3vw;
+            font-size: 20px;
+        }
+     
+        @media (max-width: 600px) {
+            .box {
+                flex-direction: column;
+            }
+
+            .leftt, .right {
+                width: 100%;
+                height: 50vh;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main"> 
+        <div class="nav">
+            <div class="title"><h2>Organic Farming</h2></div>
+            <div class="nav2">
+                <h4 onclick="window.location.href='index.html'">HOME</h4>
+                <div class="dropdown">
+                    <h4>PRODUCT</h4>
+                    <div class="dropdown-content">
+                        <a href="Beetroot.html">Beetroot</a>
+                        <a href="Carrot.html">Carrot</a>
+                        <a href="Corn.html">Corn</a>
+                        <a href="Cabbage.html">Cabbage</a>
+                        <a href="Ginger.html">Ginger</a>
+                        <a href="Onion.html">Onion</a>
+                        <a href="Wheat.html">Wheat</a>
+                    </div>
+                </div>
+                <h4 onclick="window.location.href='about.html'">ABOUT US</h4>
+                <h4 onclick="window.location.href='contact.html'">CONTACT US</h4>
+            </div>
+        </div>
+        
+    <div class="box">
+        <div class="leftt"></div>
+        <div class="right">
+            <p><b>Steps to Growing Organic Wheat:</b></p>
+            <br><hr>
+            <p>
+              <b>1. Choose a Variety:</b> Select a wheat variety suitable for your climate and intended use (e.g., bread wheat, durum wheat). Consider factors like disease resistance and yield.
+              <br>
+              <b>2. Prepare the Soil:</b> Wheat grows best in well-drained soil with good fertility. Amend with compost or aged manure before planting. A soil pH between 6.0 and 7.0 is ideal.
+              <br>
+              <b>3. Planting Time:</b> The best time to plant wheat depends on your climate.  In many regions, fall planting is preferred.
+              <br>
+              <b>4. Sowing Seeds:</b> Wheat seeds can be broadcast or drilled.  Sow seeds about 1-2 inches deep. The seeding rate will vary depending on the variety and planting method.
+              <br>
+              <b>5. Weed Control:</b> Weed control is important, especially in the early stages of growth.  Methods like cultivation or mulching can be used.
+              <br>
+              <b>6. Fertilizing (if needed):</b> Wheat may benefit from a side-dressing of compost tea or a balanced organic fertilizer, especially if soil fertility is low.
+              <br>
+              <b>7. Pest and Disease Control:</b> Wheat can be susceptible to various pests and diseases.  Choose resistant varieties when possible.  Crop rotation and other organic practices can help minimize problems.
+              <br>
+              <b>8. Harvesting:</b> Wheat is typically harvested when the grains are mature and dry.  This usually involves cutting the stalks and then threshing to separate the grain from the chaff.  Small-scale growers may harvest by hand.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

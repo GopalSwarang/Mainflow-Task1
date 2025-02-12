@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="organic.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>About Us - Organic Farming</title>
+    <style>
+        body{
+            background-image: url('organicF.jpg'); 
+            background-size: cover;
+            background-position: center;
+        }
+        .about-box {
+            width: 60%;
+            margin: 5% auto;
+            padding: 2rem;
+            background: white;
+            box-shadow: 4px 8px 9px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            text-align: center;
+        }
+        .about-box h1 {
+            margin-bottom: 1rem;
+        }
+        .about-box p {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            text-align: justify;
+        }
+        @media (max-width: 768px) {
+            .about-box {
+                width: 80%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+           
+            <div class="title"><h2>Organic Farming</h2></div>
+            <div class="nav2">
+                <h4 onclick="window.location.href='index.html'">HOME</h4>
+                <div class="dropdown">
+                    <h4>PRODUCT</h4>
+                    <div class="dropdown-content">
+                        <a href="#">Beetroot</a>
+                        <a href="#">Carrot</a>
+                        <a href="#">Corn</a>
+                        <a href="#">Cabbage</a>
+                        <a href="#">Ginger</a>
+                        <a href="#">Onion</a>
+                        <a href="#">Wheat</a>
+
+                    </div>
+                </div>
+                <h4 onclick="window.location.href='about.html'">ABOUT US</h4>
+                <h4 onclick="window.location.href='contact.html'">CONTACT US</h4>
+            </div>
+            <!-- Mobile Menu Toggle Button -->
+        <label for="menu-toggle" class="menu-icon">
+        <i class="ri-menu-3-line"></i>
+        </label>
+        </div>
+        <div class="about-box">
+            <h1>About Us</h1>
+                <p>Welcome to Organic Farming, where we believe in sustainable and eco-friendly agricultural practices.</p>
+                <p>Our mission is to promote organic farming techniques that benefit both farmers and the environment.</p>
+                <p>We are dedicated to providing fresh, healthy, and chemical-free produce to communities while supporting local farmers in their journey towards a greener future.</p>
+                <p>We offer educational resources and workshops on organic farming methods.</p>
+                <p>We partner with local farmers to bring you the best organic products.</p>
+                <p>We are committed to preserving biodiversity and soil health.</p>
+                <p>We believe in transparency and traceability, so you know where your food comes from.</p>    
+                <p>Join us in our mission to make the world a healthier place, one farm at a time.</p>
+     
+        </div>
+    </div>
+</body>
+</html>

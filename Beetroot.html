@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Beetroot</title>
+    <link rel="stylesheet" href="organic.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box {
+            width: 100%;
+            height: calc(100% - 70px);
+            display: flex;
+        }
+        .leftt {
+            width: 35%;
+            background: url('Beetroot.jpg') ;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .right {
+            width: 65%;
+            padding: 3vw;
+            font-size: 25px;
+        }
+        @media (max-width: 600px) {
+            .box {
+                flex-direction: column;
+            }
+
+            .leftt, .right {
+                width: 100%;
+                height: 50vh;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main"> 
+        <div class="nav">
+            <div class="title"><h2>Organic Farming</h2></div>
+            <div class="nav2">
+                <h4 onclick="window.location.href='index.html'">HOME</h4>
+                <div class="dropdown">
+                    <h4>PRODUCT</h4>
+                    <div class="dropdown-content">
+                        <a href="Beetroot.html">Beetroot</a>
+                        <a href="Carrot.html">Carrot</a>
+                        <a href="Corn.html">Corn</a>
+                        <a href="Cabbage.html">Cabbage</a>
+                        <a href="Ginger.html">Ginger</a>
+                        <a href="Onion.html">Onion</a>
+                        <a href="Wheat.html">Wheat</a>
+                    </div>
+                </div>
+                <h4 onclick="window.location.href='about.html'">ABOUT US</h4>
+                <h4 onclick="window.location.href='contact.html'">CONTACT US</h4>
+            </div>
+        </div>
+        
+    <div class="box">
+        <div class="leftt"></div>
+        <div class="right">
+            <p><b>Steps to Growing Organic Beetroot:</b></p>
+            <br><hr>
+            <p>
+                <b>1. Prepare the Soil:</b> Amend well-drained soil with compost. Aim for a pH between 6.0 and 7.0.<br>
+                <b>2. Sow Seeds:</b> Plant seeds ½ inch deep and 2-4 inches apart. Thin seedlings later.<br>
+                <b>3. Water Regularly:</b> Keep the soil consistently moist, especially during early growth.<br>
+                <b>4. Weed and Mulch:</b> Remove weeds and apply mulch to retain moisture.<br>
+                <b>5. Fertilize Sparingly:</b> Use compost tea or a balanced organic fertilizer if needed. Avoid excess nitrogen.<br>
+                <b>6. Control Pests/Diseases:</b> Use organic methods if pests or diseases appear.<br>
+                <b>7. Harvest:</b> Pull beets when roots are 2-3 inches in diameter. Enjoy the greens too!
+            </p>
+            
+
+        </div>
+    </div>
+</body>
+</html>
